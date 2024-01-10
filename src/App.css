@@ -8,7 +8,6 @@ p {
   margin: 16px;
   font-size: calc(var(--index) * 1.5);
 }
-
 h1 {
   color: #08ea79;
   /* text-align: center; */
@@ -33,11 +32,6 @@ span {
 .App {
   text-align: center;
 }
-img {
-  width: calc(var(--index) * 25);
-  height: calc(var(--index) * 25);
-  border-radius: 16px;
-}
 .App-header {
   background-image: url(./back.png);
   background-color: black;
@@ -46,4 +40,9 @@ img {
   flex-direction: column;
   align-items: center;
   /* color: rgb(7, 6, 6); */
+}
+img {
+  width: calc(var(--index) * 25);
+  height: calc(var(--index) * 25);
+  border-radius: 16px;
 }
